@@ -7,9 +7,12 @@
 <body>
 @include('includes.preloader')	
 @include('includes.header')		
-@include('includes.search')		
-	
-@include('includes.slider')		
+@include('includes.search')
+
+@if(Request::route()->getName()!='indx')		
+@include('includes.slider')	
+@endif
+@yield('slider')	
 
 @include('includes.feature')		
 @include('includes.productSection')

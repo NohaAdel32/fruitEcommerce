@@ -13,9 +13,11 @@
 
 		
 @yield('content')
-	
+
+@if(Request::route()->getName()!='contact')	
 @include('includes.logo')	
-	
+@endif
+
 @include('includes.footer')	
 
 @include('includes.copyright')		

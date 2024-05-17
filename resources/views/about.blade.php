@@ -65,7 +65,7 @@
 	<!-- end shop banner -->
 
 	<!-- team section -->
-	#include('includes.team')
+	@include('includes.team')
 	<!-- end team section -->
 
 	<!-- testimonail-section -->
@@ -75,4 +75,7 @@
 @endsection
 @section('title')
 About Us
+@endsection
+@section('suptitle')
+WE SALE FRESH FRUITS
 @endsection
