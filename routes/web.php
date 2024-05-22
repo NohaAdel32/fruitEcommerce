@@ -20,3 +20,6 @@ Route::get('singleNews', [IndexController::class,'singleNews'])->name('singleNew
 Route::get('singleProduct', [IndexController::class,'singleProduct'])->name('singleProduct');
 Route::get('dyHome', [IndexController::class,'dyHome'])->name('dyHome');
 
+// Route::get('lank', function () {
+//     return view('layouts.adminPages');
+// });
